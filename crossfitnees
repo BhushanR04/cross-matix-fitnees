@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cross.css">
+</head>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <header>
+        <div class="top"></div>
+        <div class="headerLeft">
+            <div>
+                <img src="crossmtix1-removebg-preview.png" alt="Logo">
+            </div>
+            <p>&nbsp;&nbsp;Cross Matix fitnees</p>
+        </div>
+
+        <div class="headerMid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#help">Help</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <h1>Join The Best Gym of Kharghar Now !!</h1>
+        <h2>hurry up guys !!!</h2>
+
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Mobile No.">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Address">
+            </div>
+
+            <div>
+                <button class="btn1" type="submit">Submit</button>
+                <button class="btn1" type="reset">Reset</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="about">
+                 <h2>
+                    <b>&#10054;Cross fitness</b>
+                </h2>
+                <h2>
+                    <b>&#10054;Contact number :921786879 </b>
+                </h2>
+                <h2>
+                    <b>&#10054;Address : kharghar navi mumbai
+                        <button class="btn"><a href="mailto:bhushanrevane@gmail.com">Email Us</a></button>
+                    </div>
+                </h2>
+                
+            </div>
+            <br>
+            <br>
+            <div class="hepling" id="help">
+            <h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30167.885895717915!2d73.04210147801913!3d19.0643647091316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c30dbd59e0a1%3A0xdb3393a2a519f07f!2sLevel%20Cross%20Fitness!5e0!3m2!1sen!2sin!4v1692626810936!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="headerRight">
+                    <button class="btn"><a href="#top">move to top</a></button>
+                </div>
+            </h2>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
